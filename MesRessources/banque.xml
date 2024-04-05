@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.3" class="java.beans.XMLDecoder">
+ <object class="ca.qc.collegeahuntsic.projet2.classes.Banque">
+  <void property="listeClient">
+   <object class="ca.qc.collegeahuntsic.projet2.classes.ListeClient">
+    <void method="add">
+     <object class="ca.qc.collegeahuntsic.projet2.classes.Client" id="Client0">
+      <void property="listeCompteBancaire">
+       <void method="add">
+        <object class="ca.qc.collegeahuntsic.projet2.classes.CompteClassique" id="CompteClassique0">
+         <void property="listeOperation">
+          <void method="add">
+           <object class="ca.qc.collegeahuntsic.projet2.classes.Operation">
+            <void property="montant">
+             <double>300.0</double>
+            </void>
+            <void property="typeOpe">
+             <object class="java.lang.Enum" method="valueOf">
+              <class>ca.qc.collegeahuntsic.projet2.classes.Type</class>
+              <string>DEPOT</string>
+             </object>
+            </void>
+           </object>
+          </void>
+         </void>
+         <void property="numeroDeCompte">
+          <string>952-0025-25</string>
+         </void>
+         <void property="solde">
+          <double>2300.0</double>
+         </void>
+        </object>
+       </void>
+      </void>
+      <void property="nom">
+       <string>Kenny</string>
+      </void>
+      <void property="prenom">
+       <string>Rigaud</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ca.qc.collegeahuntsic.projet2.classes.Client" id="Client1">
+      <void property="listeCompteBancaire">
+       <void method="add">
+        <object class="ca.qc.collegeahuntsic.projet2.classes.CompteClassique" id="CompteClassique1">
+         <void property="listeOperation">
+          <void method="add">
+           <object class="ca.qc.collegeahuntsic.projet2.classes.Operation">
+            <void property="montant">
+             <double>300.0</double>
+            </void>
+            <void property="typeOpe">
+             <object class="java.lang.Enum" method="valueOf">
+              <class>ca.qc.collegeahuntsic.projet2.classes.Type</class>
+              <string>RETRAIT</string>
+             </object>
+            </void>
+           </object>
+          </void>
+         </void>
+         <void property="numeroDeCompte">
+          <string>182-0025-25</string>
+         </void>
+         <void property="solde">
+          <double>2700.0</double>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="ca.qc.collegeahuntsic.projet2.classes.CompteEpargne">
+         <void property="numeroDeCompte">
+          <string>471-0025-25</string>
+         </void>
+         <void property="solde">
+          <double>6000.0</double>
+         </void>
+        </object>
+       </void>
+      </void>
+      <void property="nom">
+       <string>Jones</string>
+      </void>
+      <void property="prenom">
+       <string>Cormic</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ca.qc.collegeahuntsic.projet2.classes.Client" id="Client2">
+      <void property="listeCompteBancaire">
+       <void method="add">
+        <object class="ca.qc.collegeahuntsic.projet2.classes.CompteClassique">
+         <void property="numeroDeCompte">
+          <string>223-0025-25</string>
+         </void>
+         <void property="solde">
+          <double>8000.0</double>
+         </void>
+        </object>
+       </void>
+      </void>
+      <void property="nom">
+       <string>Allen</string>
+      </void>
+      <void property="prenom">
+       <string>Joseph</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="nom">
+   <string>Banque Scotia</string>
+  </void>
+  <void property="numSuccursale">
+   <int>25</int>
+  </void>
+ </object>
+</java>
